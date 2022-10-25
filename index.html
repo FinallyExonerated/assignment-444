@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
     <title>Document</title>
 </head>
 <body>
     
+
+    <div id="wrapper">
+        <div class="quiz">
+            <div class="header-content">
+                <button class="highscores">View Highscores</button>
+                <p>Time <span id="time">0</span></p>
+            </div>
+            <div class="main-content">
+                <h1>Coding Quiz Challenge</h1>
+                <p>Try to answer the following code-related questions with the time limit. Keep in mind that incorrect answers will penalize your scoretime by ten seconds!</p>
+                <button class="start-quiz">Start Quiz</button>
+            </div>
+            <div class="quiz-questions">
+                <h2>Commonly used data types DO NOT include: </h2>
+                <ol>
+                    <li>strings</li>
+                    <li>booleans</li>
+                    <li>alerts</li>
+                    <li>numbers</li>
+                </ol>
+                <span id="guess">Right</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/script.js"></script>
 </body>
 </html>
